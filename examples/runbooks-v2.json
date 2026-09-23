@@ -1,0 +1,5 @@
+[
+  {"doc_id": "deploy", "title": "Deployment procedure", "body": "Deployment requires two approvals. Check service health and rollback readiness before rollout."},
+  {"doc_id": "cache", "title": "Cache recovery", "body": "A cache timeout should trigger a bounded source fallback. Inspect request latency."},
+  {"doc_id": "queue", "title": "Queue recovery", "body": "Inspect queue age before increasing worker concurrency. Replay failed jobs only after diagnosis."}
+]

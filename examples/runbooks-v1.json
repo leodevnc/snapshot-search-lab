@@ -1,0 +1,5 @@
+[
+  {"doc_id": "deploy", "title": "Deployment procedure", "body": "Deployment requires one approval. Check the service health after rollout."},
+  {"doc_id": "cache", "title": "Cache recovery", "body": "A cache timeout should trigger a bounded source fallback. Inspect request latency."},
+  {"doc_id": "legacy", "title": "Legacy restart", "body": "Restart the legacy worker manually after a crash."}
+]

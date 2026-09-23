@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snapshot-search-lab"
+version = "0.1.0"
+description = "Local experiments with immutable search generations and verifiable citations"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+snapshot-search = "snapshot_search.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["snapshot_search*"]
