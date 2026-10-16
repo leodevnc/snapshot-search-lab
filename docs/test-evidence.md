@@ -1,4 +1,4 @@
-# Test evidence
+# Testing
 
 Run from the repository root:
 
@@ -9,16 +9,9 @@ python -m unittest discover -s tests -v
 The suite exercises observable behavior, using temporary database files and controlled concurrency.
 It does not need a network connection, cloud account, model, or third-party Python package.
 
-## Recorded local result
+## Test scenarios
 
-The initial milestone passed all 20 tests on Python 3.11.15 and SQLite 3.37.2 with FTS5:
-
-```text
-Ran 20 tests in 1.804s
-OK
-```
-
-The elapsed time is a test run observation, not a performance benchmark.
+SQLite must include FTS5 support.
 
 | Experiment | Verified behavior |
 | --- | --- |
